@@ -184,6 +184,13 @@ form button:hover{
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+.date{
+  color:#49bdf3;
+  position: absolute;
+  font-size: 2.5rem;
+  top: 3rem;
+  left:6rem;
+}
 @media screen and (max-width:600px){
   header{
     font-size: 1rem;
@@ -203,6 +210,15 @@ form button:hover{
   .section{
     gap: 2.5rem;
   }
+  .date{
+    font-size: 1rem;
+    top: 1.5rem;
+    left: 0.8rem;
+  }
+  body{
+    overflow: hidden;
+    height: 100%;
+  }
 }
 .clearAll{
   border: none;
@@ -217,11 +233,4 @@ form button:hover{
    margin-top: 1rem;
    cursor: pointer;
    visibility: hidden;
-}
-.date{
-  color:#49bdf3;
-  position: absolute;
-  font-size: 2.5rem;
-  top: 3rem;
-  left:6rem;
 }
