@@ -219,6 +219,9 @@ form button:hover{
     overflow: hidden;
     height: 100%;
   }
+  body::before{
+    visibility: hidden;
+  }
 }
 .clearAll{
   border: none;
